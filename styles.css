@@ -1,5 +1,5 @@
 body {
-    background-color: bisque;
+    background-color: rgb(247, 235, 219);
 }
 
 .title {
@@ -40,4 +40,16 @@ body {
 
 #blue {
     background-color: blue;
+}
+
+.pressed {
+    box-shadow: 0 0 50px black;
+}
+
+.light {
+    box-shadow: 0 0 50px purple;
+}
+
+.lose {
+    background-color: red;
 }
