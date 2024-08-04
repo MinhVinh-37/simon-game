@@ -39,7 +39,7 @@ function activePressButton() {
     $("#" + pressedColor).addClass("pressed");
     setTimeout(() => {
       $("#" + pressedColor).removeClass("pressed");
-    }, 500);
+    }, 200);
     new Audio("./sounds/" + pressedColor + ".mp3").play();
     pressedButtons.push(pressedColor);
     var indexCompare = pressedButtons.length - 1;
